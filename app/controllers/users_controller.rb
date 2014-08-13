@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    sleep 1
+    # sleep 1
     @users = User.includes(:posts).all
     render json: @users
   end
