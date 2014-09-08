@@ -1,7 +1,7 @@
 class PostSerializer < ActiveModel::Serializer
   include Rails.application.routes.url_helpers
 
-  attributes :id, :title, :excerpt, :content, :url, :updated_at
+  attributes :id, :title, :excerpt, :content, :url, :image_url, :updated_at
   
   has_one :user, embed: :ids, include: true
   # has_many :posts, embed: :ids, include: true
