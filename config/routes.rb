@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+    match '*path', to: 'users#xxx' , via: [:options]
+  
   resources :posts
 
   resources :users

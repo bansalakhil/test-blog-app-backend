@@ -26,6 +26,7 @@ gem "active_model_serializers"
 gem 'spring',        group: :development
 gem 'faker', group: :development
 gem 'quiet_assets', group: :development
+# gem 'rack-cors', :require => 'rack/cors'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
